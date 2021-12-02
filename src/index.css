@@ -315,7 +315,7 @@ textarea {
   border: none;
   border-radius: 0;
   box-sizing: border-box;
-  color: #333;
+  color: #6a6666;
   outline: none;
   width: 100%;
 }
@@ -859,7 +859,7 @@ a:focus {
   line-height: 20px;
   display: flex;
   flex-wrap: wrap;
-  height: 3rem;
+  /* height: 3rem; */
   width: 100%;
   background: white;
   transition: all ease-out 150ms;
@@ -873,13 +873,14 @@ a:focus {
 .list-item input[type='text'] {
   background: transparent;
   width: 100%;
+  font-weight: 600;
 }
 .list-item input[type='text']:focus {
   cursor: text;
 }
 .list-item .actions {
   transition: all 200ms ease-in;
-  padding-right: 20px;
+  padding: 0 13px;
 }
 .list-item .actions a {
   display: inline-block;
@@ -950,6 +951,7 @@ a:focus {
   position: relative;
   background: white;
   min-height: 288px;
+  border-radius: 2px;
 }
 .list-items .select-placeholder {
   border: none;
